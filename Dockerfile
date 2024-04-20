@@ -5,7 +5,7 @@ RUN apt install git -y
 
 WORKDIR /nodecg
 
-RUN nodecg setup 1.9.0
+RUN nodecg setup 2.2.1
 
 EXPOSE 9090
 
